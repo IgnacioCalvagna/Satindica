@@ -1,0 +1,34 @@
+.title{
+    margin-top: 5%;   
+}
+.todo{
+    display: flex;
+}
+.txt{
+    margin-top: 10%;
+
+    width: 50%;
+    font-size: larger;
+}
+.txt-img{
+    margin-top: 5%;
+
+    
+}
+
+.caja1{
+    display: flex;
+}
+
+.chivo{
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 20%;
+}
+.elbtn{
+    text-align: center;
+    margin-top: 15%;
+}
+.txt-logo{
+    margin-left: 12%;
+}

@@ -1,0 +1,17 @@
+.info{
+    margin-top: 5%;
+}
+.mip{
+    text-align: center;
+    font-size: x-large;
+}
+.elForm{
+    margin-top: 10%;
+    width: 100%;
+}
+.contact{
+    display: flex;
+}
+.mitad{
+    width: 50%;
+}

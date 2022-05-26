@@ -1,0 +1,19 @@
+.catalogo{
+    display: flex;
+}
+
+.columna{
+    display: flex;
+    margin-bottom: 5%;
+}
+.laInfo{
+    width: 60%;
+    
+}
+.info2{
+    width: 40%;
+    
+}
+.precio{
+    margin-left: 60%;
+}
