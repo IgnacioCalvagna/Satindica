@@ -4,9 +4,9 @@ import { Input, Label, FormGroup} from "reactstrap";
 
 const Form = () => {
   return (
-    <div className="elForm">
+    <div className="form">
     
-      <form className="elForm">
+      <form className="form" >
          <FormGroup>
           <Label>Nombre</Label>
           <Input

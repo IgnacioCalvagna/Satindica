@@ -5,11 +5,13 @@ import logo from "../assets/img/logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-expand-sm bg-light">
+      <nav className="navbar .navbar-expand{-sm|-md|-lg|-xl|-xxl} navbar-expand-sm bg-light">
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
+              <NavLink to='/'>
               <img src={logo} alt="" width="4%" />
+              </NavLink>
             </li>
           </ul>
         </div>

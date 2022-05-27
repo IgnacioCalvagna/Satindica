@@ -3,10 +3,13 @@ import Form from "./Form";
 import "../assets/css/contactMe.css";
 import Info from "./Info";
 import DondeEstamos from "./DondeEstamos";
-import mp  from '../assets/img/mp.png'
+import mp from "../assets/img/mp.png";
+import pf from '../assets/img/pf.png'
 const ContactMe = () => {
   return (
+    <>
     <div className="container">
+
       <div className="info">
         <p className="mip">
           Nuestros productos y en especial los aceites cannábicos tienen la más
@@ -18,53 +21,47 @@ const ContactMe = () => {
           <strong className="mip">¡No Dudes en consultarnos!</strong>
         </p>
       </div>
-      <div className="row contact ">
-        <div className="col-6 der">
+
+      <div className="contact ">
+
+        <div className="divInfo">
           <Info />
         </div>
-        <div className="col-3">
-          <div className="contact">
-            <div className="izq">
-              <h4>Horario de atencion</h4>
-             <strong> Lunes a Viernes: </strong> <br /> 10 - 13hs 15 - 20hs.
-              <br />
-              <strong>Sabados: </strong>  <br /> 11 - 15hs.
-            </div>
-          </div>
-        </div>
-        <div className="col-3">
-          <h4>Medios de pago</h4>
-          <div className="row" >
-            <div className="col-2">
-              <img src={mp} width='150%' alt="" />
-            </div>
-            <div className="col-2">
-2
-            </div>
-            <div className="col-2">
-3
-            </div>
-            <div className="col-2">
-4
-            </div>
-            <div className="col-2">
-5
-            </div>
-            
-          </div>
 
+        <div className="divHorario">
+          <h4>Horario de atencion</h4>
+          <strong> Lunes a Viernes: </strong> <br /> 10 - 13hs 15 - 20hs.
+          <br />
+          <strong>Sabados: </strong> <br /> 11 - 15hs.
         </div>
+
+        <div className="divMedioPago">
+          <h4 className="h4Medios">Medios de pago</h4>
+          <div className="seleccionPagos">
+            <div className="mediopago-2">
+              <img src={mp} width="20%" alt="" />
+              <img src={mp} width="20%" alt="" />
+              <img src={pf} width="20%" alt="" />
+              <img src={mp} width="20%" alt="" />
+              <img src={mp} width="20%" alt="" />
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div className="row contact">
-        <div className="col-6 izq">
-          <DondeEstamos />
-        </div>
-        <div className="col-6 izq">
+
+
+      <div className=" deAbajo">
+        <div className=" izquierda">
           <Form />
+        </div>
+        <div className="derecha">
+          <DondeEstamos />
         </div>
       </div>
     </div>
+      </>
   );
 };
 

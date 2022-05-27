@@ -4,8 +4,8 @@ const Info = () => {
   return (
     <>
       <div className="container totInfo">
-          <h2>Contacto</h2>
-          <div>
+          <h3 className="infoContacto">Informacion contacto</h3>
+          <div className="basicInfo">
                 <p><strong>Email</strong></p>
                 <p>s.eric.y@gmail.com</p>
                 <p><strong>Telefono</strong></p>

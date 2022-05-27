@@ -2,5 +2,26 @@ p{
     font-size: x-large;
 }
 .totInfo{
-    margin-top: 10%;
+    width: 100%;
+}
+.infoContacto{
+    width: 100%;
+}
+.basicInfo{
+    font-size: small;
+    width: 100%;
+}
+
+
+@media (min-width:320px) and ( max-width: 479px){
+    div.totInfo{
+        width: 100%;
+    }
+    div.infoContacto{
+        width: 100%;
+    }
+    div.basicInfo{
+        font-size: small;
+        width: 100%;
+    }
 }

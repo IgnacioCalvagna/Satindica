@@ -7,7 +7,7 @@
 .txt{
     margin-top: 10%;
 
-    width: 50%;
+    width: 100%;
     font-size: larger;
 }
 .txt-img{
@@ -31,4 +31,45 @@
 }
 .txt-logo{
     margin-left: 12%;
+}
+
+@media (max-width: 1500px) {
+    div.caja1{
+      display: flex;
+    }
+    div.caja1.txt{
+        width: 50%;
+    }
+    div.caja1.txt-img{
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    div.caja1{
+        display: block;
+      width: 100%;
+    }
+    div.caja1.txt{
+        width: 100%;
+    }
+    div.caja1.txt-img{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div.todo{
+        display: block;
+      width: 100%;
+    }
+    div.todo.txt{
+        width: 100%;
+    } 
+     div.todo.txt-logo{
+        text-align: center;
+        width: 35%;
+    }
 }

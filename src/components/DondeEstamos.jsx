@@ -9,7 +9,7 @@ const DondeEstamos = () => {
       <div className="elFrame">
         <iframe
           width="100%"
-          height="500px"
+          height="100%"
           frameBorder="0"
           scrolling="yes"
           marginHeight="0"
