@@ -12,22 +12,7 @@ li{
     margin-left:2%;
 }
 
-
-@media ( max-width: 500px){
-    ul.nav-item{
-        width: 15%;
-    }
-    div.navbar{
-        display: flex;
-    }
-    div.togleBtn{
-        float: right;
-    }
-}
-
-@media ( max-width: 1000px){
-
-    div.togleBtn{
-        display: none;
-    }
+button{
+    outline: none;
+    border: none;
 }

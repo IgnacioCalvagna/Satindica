@@ -13,6 +13,7 @@
 
 .h4Medios {
     text-align: center;
+    color:#43893D
 }
 
 .seleccionPagos {
@@ -23,7 +24,8 @@
 }
 
 .mediopago {
-    width: 20%;
+    width: 50%;
+    margin: 0 auto;
 
 }
 

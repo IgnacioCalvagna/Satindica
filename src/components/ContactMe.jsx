@@ -39,7 +39,7 @@ const ContactMe = () => {
         <div className="divMedioPago">
           <h4 className="h4Medios">Medios de pago</h4>
           <div className="seleccionPagos">
-            <div className="mediopago-2">
+            <div className="mediopago">
               <img src={mp} width="20%" alt="" />
               <img src={rp} width="20%" alt="" />
               <img src={pf} width="20%" alt="" />
