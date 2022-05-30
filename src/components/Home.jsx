@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logoVerde.png";
 import { Link } from "react-router-dom";
 import "../assets/css/home.css";
 import Carrousel from './Carrousel'
@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className=" todi">
         <div className="nosviCatalogo">
-        <span>para ver mas</span> <Link to='/products'> <button className='btn btn-success'>Ir al catalogo</button></Link>
+        <span>para ver mas</span> <br /> <Link to='/products'> <button className=' btn btn-success '> Ir al catalogo</button></Link>
         </div>
       </div>
       <div className='elCarru '>

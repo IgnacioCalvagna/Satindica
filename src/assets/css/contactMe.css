@@ -1,119 +1,159 @@
-.divInfo{
+.divInfo {
     width: 50%;
 }
-.divHorario{
+
+.divHorario {
     width: 25%;
 }
-.divMedioPago{
+
+.divMedioPago {
     width: 25%;
-   
+
 }
-.h4Medios{
+
+.h4Medios {
     text-align: center;
 }
-.seleccionPagos{
+
+.seleccionPagos {
     width: 100%;
     display: flex;
     justify-items: center;
     text-align: center;
 }
-.mediopago{
+
+.mediopago {
     width: 20%;
-    
+
 }
-.info{
+
+.info {
     margin-top: 5%;
 }
-.mip{
+
+.mip {
     text-align: center;
     font-size: x-large;
 }
-.elForm{
+
+.elForm {
     /* margin-top: 10%; */
     width: 100%;
 }
-.contact{
+
+.contact {
     display: flex;
 
     justify-content: space-between;
 }
 
-.deAbajo{
-    
+.deAbajo {
+
+    /* width: 100%; */
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
-    
+
 }
-.izquierda{
+
+.izquierda {
     width: 50%;
 }
-.derecha{
+
+.derecha {
     width: 45%;
-    
+
 }
-@media (max-width: 1500px) {
-    div.contact{
-      display: block;
+
+
+/* MOVIL  */
+@media (max-width: 500px) {
+    div.info {
+        width: 100%;
     }
-    div.caja1.txt{
-        width: 50%;
+
+    p.mip {
+        font-size: medium;
     }
-    div.caja1.txt-img{
+
+
+    div.contact {
+        display: block;
+    }
+    .deAbajo {
+
+        width: 100%;
+        display: block;
+    }
+
+    .izquierda {
+        width: 100%;
+
+    }
+
+   .derecha {
+        width: 100%;
+        text-align: center;
+        border-radius: 15%;
+    }
+    .divMedioPago{
+        width: 100%;
+    }
+
+}
+
+
+/* TABLET   */
+
+/* 
+@media (max-width: 1300px) {
+    div.contact {
+        display: flex;
+    }
+
+    div.caja1.txt {
+        width: 100%;
+    }
+
+    div.caja1.txt-img {
         justify-content: center;
     }
 }
 
- /* MOVIL  */
 
+/*
 
-@media (min-width:320px){
-    div.info{
+@media (min-width:320px) {
+    div.info {
         width: 100%;
     }
-    p.mip{
-        font-size:medium;
+
+    p.mip {
+        font-size: medium;
     }
 
 
-    div.contact{
+    div.contact {
         display: block;
     }
 
+    div.deAbajo {
 
-@media ( max-width: 479px){
-    div.info{
         width: 100%;
-    }
-    p.mip{
-        font-size:medium;
-    }
-
-
-    div.contact{
         display: block;
     }
 
+    div.deAbajo.izquierda {
+        width: 100%;
+
+    }
+
+    div.deAbajo.derecha {
+        width: 100%;
+        text-align: center;
+        border-radius: 15%;
+    }
 }
+*/ 
 
 
-
-
-
-
-
-   div.deAbajo{
-
-    width: 100%;
-    display: block;
-   }
-   div.deAbajo.izquierda{
-       width: 100%;
-       
-   }
-   div.deAbajo.derecha{
-       width: 100%;
-       text-align: center;
-       border-radius: 15%;
-   }
-}

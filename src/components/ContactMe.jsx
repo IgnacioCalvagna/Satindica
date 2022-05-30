@@ -5,6 +5,7 @@ import Info from "./Info";
 import DondeEstamos from "./DondeEstamos";
 import mp from "../assets/img/mp.png";
 import pf from '../assets/img/pf.png'
+import rp from '../assets/img/rp.png'
 const ContactMe = () => {
   return (
     <>
@@ -40,7 +41,7 @@ const ContactMe = () => {
           <div className="seleccionPagos">
             <div className="mediopago-2">
               <img src={mp} width="20%" alt="" />
-              <img src={mp} width="20%" alt="" />
+              <img src={rp} width="20%" alt="" />
               <img src={pf} width="20%" alt="" />
               <img src={mp} width="20%" alt="" />
               <img src={mp} width="20%" alt="" />

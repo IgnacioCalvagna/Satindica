@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/aboutUs.css";
 import aceites from "../assets/img/aceites.jpg";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logoVerde.png";
 const AboutUs = () => {
   return (
     <>
@@ -38,17 +38,15 @@ const AboutUs = () => {
           <div className="txt laImg">
             <img src={logo} alt="" width="45%" />
           </div>
-
+          
           <div className="txt">
-            <p className="  chivo">La mejor calidad y precio del mercado</p>
+          <div className="elbtn">
+            <Link to="/contactMe">
+              <button className="btn  btn-success">Contactenos</button>
+            </Link>
           </div>
-        </div>
-
-        
-        <div className="elbtn">
-          <Link to="/contactMe">
-            <button className="btn btn-info">Contactenos</button>
-          </Link>
+            <p className="chivo">La mejor calidad y precio del mercado</p>
+          </div>
         </div>
       </div>
     </>

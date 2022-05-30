@@ -2,14 +2,12 @@ import React from "react";
 import "../assets/css/dondeEstamos.css";
 const DondeEstamos = () => {
   return (
-    <>
-      <h4>
-        Nos encontramos en zona norte (1648) <br /> Buenos Aires
-      </h4>
-      <div className="elFrame">
+    <div className="miframe">
+      <h4>Nos encontramos en zona norte (1648), Buenos Aires</h4>
+      <div >
         <iframe
           width="100%"
-          height="100%"
+          height="350px"
           frameBorder="0"
           scrolling="yes"
           marginHeight="0"
@@ -19,7 +17,7 @@ const DondeEstamos = () => {
           <a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a>
         </iframe>
       </div>
-    </>
+    </div>
   );
 };
 

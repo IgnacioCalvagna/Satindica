@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/queHacemos.css";
 import list from "../assets/img/productos/acitsList.webp";
+import pets from "../assets/img/productos/pets.jpeg";
 const QueHacemos = () => {
   return (
     <>
@@ -50,7 +51,7 @@ const QueHacemos = () => {
                     type="button"
                     class="btn miBtn modal-lg "
                     data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop"
+                    data-bs-target="#staticBackdropList"
                   >
                     <img src={list} alt="" width="25%" />
                   </button>
@@ -61,7 +62,7 @@ const QueHacemos = () => {
           
           <div
             class="modal fade"
-            id="staticBackdrop"
+            id="staticBackdropList"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
             tabindex="-1"
@@ -230,7 +231,54 @@ const QueHacemos = () => {
                 A)Aceite de CBD suplemento dietario <br />
                 B)Perfume combate pulgas y mosquitos <br />
                 C)Bálsamo pieles lastimadas
+                <div className="laImg">
+                  <button
+                    type="button"
+                    class="btn miBtn modal-lg "
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropPets"
+                  >
+                    <img src={pets} alt="" width="25%" />
+                  </button>
+                </div>
               </div>
+
+              <div
+            class="modal fade"
+            id="staticBackdropPets"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title" id="staticBackdropLabel">
+                    Nuestros aceites
+                  </h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div className="modal-body"> <img src={pets} alt="" width="100%" /></div>
+                <div className="modal-footer">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
             </div>
           </div>
         </div>

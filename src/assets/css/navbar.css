@@ -1,16 +1,33 @@
 .navbar{
-    display: flex;
-    padding: 2%;
+    width: 100%;
+    
 }
 li{
     list-style: none;
     
 }
-.algo{
-    display: flex;
-    width: 50%;
-    padding-left: 2%;
+
+
+.navIco{
+    margin-left:2%;
 }
-.lgo{
-    float: left;
+
+
+@media ( max-width: 500px){
+    ul.nav-item{
+        width: 15%;
+    }
+    div.navbar{
+        display: flex;
+    }
+    div.togleBtn{
+        float: right;
+    }
+}
+
+@media ( max-width: 1000px){
+
+    div.togleBtn{
+        display: none;
+    }
 }

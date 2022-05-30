@@ -4,7 +4,7 @@
       {
           "id":1,
         "name": "Aceite CBD",
-        "description": "Para picar con comidad, facil de llevar",
+        "description": "Ansiedad,ataques de pánico,migrañas, para dejar de fumar,reduce el apetito,diabetes,trata organos vitales, salud arterial y CBD cardíaca, trastorno del sueño, neuroprotector,regenerador, psoriasis, anti-inflamatorio. ",
         "price": 1500,
         "stock": 15
        
@@ -12,7 +12,7 @@
       {
         "id":2,
         "name": "Aceite THC",
-        "description": "Mayor atencion ",
+        "description": "Ayuda a levantar la energía, el estado de animo, es vigorizante ataca células cancerigenas, trabaja para reducir tumores.En la mayoría de los casos quita el sueño y activa a la persona, estimula el apetito ",
         "price": 2500,
         "stock": 120
        
@@ -20,8 +20,8 @@
   
       {
         "id":3,
-        "name": "Creama de CBD  ",
-        "description": "Para dolores musculares  ",
+        "name": "Indica  ",
+        "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
         "price": 2000,
         "stock": 158
         

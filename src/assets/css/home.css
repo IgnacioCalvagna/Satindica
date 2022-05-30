@@ -1,5 +1,6 @@
 .logito{
     text-align: center;
+    margin-top: 4%;
 }
 .elCarru{
     width: 70%;
@@ -16,4 +17,26 @@
     
     float: right;
     margin-right: 25.6%;
+}
+
+
+@media ( max-width: 500px){
+    div.elCarru{
+        width: 100%;
+        margin-top: 5%;
+    }
+    p.mip{
+        font-size:medium;
+    }
+
+    div.nosviCatalogo{
+        margin: 0 auto;
+        
+        margin-bottom: 5%;
+    }
+    div.todi{
+        
+       text-align: center;
+    }
+
 }

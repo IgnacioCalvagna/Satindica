@@ -19,7 +19,11 @@
 .caja1{
     display: flex;
 }
-
+.btn-success{
+    background-color: #43893D;
+    color:#43893D;
+    
+}
 .chivo{
     font-size: xxx-large;
     text-align: center;
@@ -60,16 +64,23 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
     div.todo{
         display: block;
       width: 100%;
     }
-    div.todo.txt{
+    div.txt{
         width: 100%;
+        font-size: small;
     } 
+    div.totoArriba{
+        font-size: small;
+    }
      div.todo.txt-logo{
         text-align: center;
         width: 35%;
+    }
+    p.chivo{
+        font-size: xx-large;
     }
 }
