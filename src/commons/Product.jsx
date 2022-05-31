@@ -3,8 +3,8 @@ import React from 'react'
 const Product = ( {p,id,img} ) => {
   return (
     <div >
-     <div >
-      {p.id % 2 === 0 ? (
+     
+     
         <>
           <div>
             <div key={id}>
@@ -14,8 +14,8 @@ const Product = ( {p,id,img} ) => {
                   <p>{p.description}</p>
                 </div>
                 <div className="info2">
-                  <img src={img} width="75%" alt="" />
                   <div className="precio">
+                  <img src={img} width="100%" alt="" />
                     <p>
                       Precio <br />${p.price}
                     </p>
@@ -25,28 +25,8 @@ const Product = ( {p,id,img} ) => {
             </div>
           </div>
         </>
-      ) : (
-        <>
-          <div >
-            <div key={id}>
-              <div className="columna">
-                <div className="info2">
-                  <img src={img} width="75%" alt="" />
-                  <p>
-                    Precio <br />${p.price}
-                  </p>
-                </div>
-                <div className="claInfo">
-                  <h1>{p.name}</h1>
-                  <p>{p.description}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </>
-      )}
-    </div>
+     
+    
     </div>
   )
 }

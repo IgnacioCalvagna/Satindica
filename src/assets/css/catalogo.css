@@ -5,6 +5,7 @@
 .columna{
     display: flex;
     margin-bottom: 5%;
+    
 }
 .laInfo{
     width: 60%;
@@ -16,4 +17,7 @@
 }
 .precio{
     margin-left: 60%;
+}
+.btnLineas{
+    margin-bottom: 5%;
 }

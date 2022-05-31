@@ -18,29 +18,19 @@ import otro2 from'../assets/img/productos/catalogo/royal/2.jpeg'
 import otro3 from'../assets/img/productos/catalogo/royal/3.jpeg'
 import otro4 from'../assets/img/productos/catalogo/royal/4.jpeg'
 
-
-
 const satindica = [algo1,algo2,algo3,algo4,algo5]
 const royal = [otro1,otro2,otro3,otro4]
-
-
-
-
 
 const misProductos = productos.productos.map((p,i) => {
   return (
    <Product  p={p} id={p.id} img={satindica[i]}/>
   );
 });
-
-
-
-
 const Catalogo = () => {
   return (
     <div className="container">
       <h1>Catalogo de productos</h1>
-      <div>
+      <div className="btnLineas">
         <button className="btn btn-success">Linea Satíndica</button>
         <button className="btn btn-info">Linea Royal Queen</button>
       </div>
