@@ -13,15 +13,59 @@ p{
 }
 
 
-@media (min-width:320px) and ( max-width: 479px){
-    div.totInfo{
+@media (max-width: 600px) {
+    .infoContacto{
         width: 100%;
+        color: #43893D;
+        text-align: center;
+        font-size: xx-large;
+        
     }
-    div.infoContacto{
+    .totInfo{
         width: 100%;
+        margin-bottom: 5%;
+        
     }
-    div.basicInfo{
+    
+    .basicInfo{
         font-size: small;
         width: 100%;
+        
     }
+    .infoLine{
+        display: flex;
+        margin: 0 auto;
+    }
+    .dato{
+        margin-left: 8%;
+    }
+    .numContact{
+        
+        
+        
+    }
+    .infoLineTitle{
+        display: flex;
+        margin: 0 auto;
+    }
+    .misRedes{
+        text-align: center;
+    }
+    .misRedes{
+        font-size: xx-large;
+        color: #43893D
+    }
+    .iconosRedes{
+        width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    }
+    .red{
+        width: 100%;
+        justify-content: space-between;
+    }
+    /* .icon{
+
+    } */
 }

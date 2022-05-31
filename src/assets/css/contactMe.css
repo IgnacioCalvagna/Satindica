@@ -13,7 +13,7 @@
 
 .h4Medios {
     text-align: center;
-    color:#43893D
+    color: #43893D
 }
 
 .seleccionPagos {
@@ -24,7 +24,7 @@
 }
 
 .mediopago {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 
 }
@@ -67,6 +67,13 @@
 
 }
 
+.verde {
+    color: #43893D
+}
+
+.miH3 {
+    width: 100%;
+}
 
 /* MOVIL  */
 @media (max-width: 500px) {
@@ -77,11 +84,33 @@
     p.mip {
         font-size: medium;
     }
+    .divInfo {
+        width: 100%;
+    }
+    .divHorario {
 
+        width: 100%;
+        justify-content: space-between;
 
-    div.contact {
+    }
+    .miH3{
+        text-align: center;
+    }
+    .semana {
+        width: 50%;
+    }
+
+    .finde {
+        width: 50%;
+    }
+    .todoHora{
+        display: flex;
+        text-align: center;
+    }
+    .contact {
         display: block;
     }
+
     .deAbajo {
 
         width: 100%;
@@ -93,12 +122,13 @@
 
     }
 
-   .derecha {
+    .derecha {
         width: 100%;
         text-align: center;
         border-radius: 15%;
     }
-    .divMedioPago{
+
+    .divMedioPago {
         width: 100%;
     }
 
@@ -156,6 +186,4 @@
         border-radius: 15%;
     }
 }
-*/ 
-
-
+*/
