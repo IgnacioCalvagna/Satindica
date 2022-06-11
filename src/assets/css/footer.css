@@ -1,0 +1,39 @@
+.footer{
+    background-color: #43893D;
+    position: absolute;
+    width: 100%;
+    opacity: .9;
+    padding-top: 1%;
+
+}
+
+.disenio{
+    font-size: medium;
+    
+}
+
+.infooter{
+    display: flex;
+}
+
+@media ( max-width: 1000px){
+    .disenio{
+        font-size: medium;
+        margin-top: 5%;
+    }
+    .infooter{
+        display: flex;
+        margin-top:1%;
+    }
+    .redes{
+        width: 50%;
+        float:left;
+        
+    }
+    .infoSat{
+        width: 50%;
+        float: right;
+        
+        
+    }
+}

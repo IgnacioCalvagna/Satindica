@@ -2,6 +2,9 @@
     width: 100%;
     
 }
+.verde{
+    background-color: #43893D;
+}
 li{
     list-style: none;
     
@@ -13,6 +16,7 @@ li{
 }
 
 button{
+    
     outline: none;
     border: none;
 }

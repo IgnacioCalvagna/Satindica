@@ -1,5 +1,9 @@
 import React from "react";
 import "../assets/css/info.css";
+
+
+/// ICON REDES 
+import ig from "../assets/img/redes/ig.png";
 const Info = () => {
   return (
     <>
@@ -24,13 +28,18 @@ const Info = () => {
             <strong>Redes sociales</strong>{" "}
           </p>
           <div className="iconosRedes">
-            <div className="icon">red1</div>
-            <div className="icon">red2</div>
-            <div className="icon">red3</div>
+            <div className="icon">
+
+          <a href="https://www.instagram.com/satindica_tigre/" target='_blank'>  <img src={ig} width="10%" alt="" /></a>
+            <img src={ig} width="10%" alt="" />
+            <img src={ig} width="10%" alt="" />
+            </div>
+            
           </div>
         </div>
       </div>
     </>
+    
   );
 };
 

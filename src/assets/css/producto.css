@@ -1,0 +1,17 @@
+
+
+
+
+
+@media ( max-width: 1000px){
+    .columna{
+        display: block;
+    }
+    .laInfo{
+        width: 100%;
+    }
+    
+    .info2{
+        width: 100%;
+    }
+}

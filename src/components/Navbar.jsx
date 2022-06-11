@@ -2,11 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/navbar.css";
 import logo from "../assets/img/logoChico.png";
-import navHam from "../assets/img/navHam.png";
+
+
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light verde">
         <div className="container-fluid">
                <li className="nav-item">
                  <NavLink to="/">
@@ -14,11 +16,6 @@ const Navbar = () => {
                  </NavLink>
                </li>
         
-               <li className="nav-item">
-                <NavLink to="/">
-                  <button className="btn ">Satindica</button>
-                </NavLink>
-              </li>
           <button
             className="navbar-toggler navTogle"
             type="button"
@@ -29,7 +26,7 @@ const Navbar = () => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-              <img src={navHam} width="150%" alt="" />
+            <i class="fa-regular fa-list-dropdown"></i>
             </span>
           </button>
 
@@ -49,6 +46,11 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink to="/queHacemos">
                   <button className="btn ">Que hacemos</button>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/queHacemos">
+                  <button className="btn ">Porque Satindica</button>
                 </NavLink>
               </li>
               <li className="nav-item">

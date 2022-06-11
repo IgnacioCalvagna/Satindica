@@ -1,10 +1,16 @@
-.logito{
-    text-align: center;
-    margin-top: 4%;
+.Home{
+    background-color: #e8e8e9;
+}
+button{
+    background-color: #43893D;
+}
+.carruup{
+    margin-top: 5%;
 }
 .elCarru{
     width: 70%;
     margin:0 auto;
+
 }
 .parrafito{
     margin-top: 5%;
@@ -20,7 +26,11 @@
 }
 
 
-@media ( max-width: 500px){
+@media ( max-width: 1000px){
+    .carruup{
+        margin: 0 auto;
+        margin-top: 5%;
+    }
     div.elCarru{
         width: 100%;
         margin-top: 5%;
@@ -32,11 +42,23 @@
     div.nosviCatalogo{
         margin: 0 auto;
         
-        margin-bottom: 5%;
+        
     }
     div.todi{
         
        text-align: center;
+    }
+    .middlePage{
+        display: block;
+    }
+    .algoNuestro{
+        width: 100%;
+    }
+    .logito{
+        width: 100%;
+    }
+    .algoDescarte{
+        width: 100%;
     }
 
 }

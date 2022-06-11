@@ -13,7 +13,7 @@ p{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .infoContacto{
         width: 100%;
         color: #43893D;
@@ -39,11 +39,11 @@ p{
     .dato{
         margin-left: 8%;
     }
-    .numContact{
+   
         
         
         
-    }
+    
     .infoLineTitle{
         display: flex;
         margin: 0 auto;

@@ -1,27 +1,37 @@
 import React from "react";
-import logo from "../assets/img/logoVerde.png";
+
 import { Link } from "react-router-dom";
 import "../assets/css/home.css";
-import Carrousel from './Carrousel'
+import Carrousel from "./Carrousel";
+import CaroucelUp from "./CaroucelUp";
+import MiddlePage from "./MiddlePage";
+
 const Home = () => {
   return (
-    <>
-      
-      <div className="logito container">
-        <img src={logo} alt="" width="15%" />
-
-        <p className='parrafito'><strong>Nuestra marca</strong></p>
+    <div className="Home">
+      <div className="carruup">
+        <CaroucelUp />
       </div>
+      <MiddlePage/>
+
+      <p className="parrafito">
+        <strong>Nuestra marca</strong>
+      </p>
       <div className=" todi">
         <div className="nosviCatalogo">
-        <span>para ver mas</span> <br /> <Link to='/products'> <button className=' btn btn-success '> Ir al catalogo</button></Link>
+          <span>para ver mas</span>
+          <br />
+          <Link to="/products">
+            <button className="btn btn-success"> Ir al catalogo</button>
+          </Link>
         </div>
       </div>
-      <div className='elCarru '>
-        <Carrousel/>
+      <br />
+      <div className="elCarru ">
+        <Carrousel />
       </div>
-    </>
+    </div>
   );
 };
-  
+
 export default Home;

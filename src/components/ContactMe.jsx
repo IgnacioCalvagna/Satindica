@@ -28,7 +28,7 @@ const ContactMe = () => {
           </div>
 
           <div className="divHorario  ">
-            <h3 className="verde miH3">Horario de atencion</h3>
+            <h3 className="verdeHorario miH3">Horario de atencion</h3>
 
             <div className="todoHora ">
               <div className="semana ">
