@@ -4,6 +4,7 @@ import "../assets/css/info.css";
 
 /// ICON REDES 
 import ig from "../assets/img/redes/ig.png";
+import fb from "../assets/img/redes/fb.png";
 const Info = () => {
   return (
     <>
@@ -12,13 +13,13 @@ const Info = () => {
           <h2 className="infoContacto">Informacion contacto</h2>
           <div className="infoLine">
             <div className="infoLineTitle">
-              <p> <strong> Email </strong></p> <p className="dato">s.eric.y@gmail.com</p>
+              <p> <strong> Email </strong> s.eric.y@gmail.com</p>
             </div>
           </div>
 
           <div className="infoLine">
             <div className="infoLineTitle">
-              <p> <strong> Telefono </strong></p> <p className="numContact">+54 9 01162119283</p>
+              <p> <strong> Telefono </strong>+54 9 01162119283</p>
             </div>
           </div>
          
@@ -31,8 +32,8 @@ const Info = () => {
             <div className="icon">
 
           <a href="https://www.instagram.com/satindica_tigre/" target='_blank'>  <img src={ig} width="10%" alt="" /></a>
-            <img src={ig} width="10%" alt="" />
-            <img src={ig} width="10%" alt="" />
+            <img src={fb} width="10%" alt="" />
+            
             </div>
             
           </div>

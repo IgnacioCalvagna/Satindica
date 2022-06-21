@@ -49,7 +49,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/queHacemos">
+                <NavLink to="/whyUs">
                   <button className="btn ">Porque Satindica</button>
                 </NavLink>
               </li>

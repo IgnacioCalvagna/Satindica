@@ -21,7 +21,9 @@
 .btnLineas{
     margin-bottom: 5%;
 }
-
+.addBtn{
+    float: left;
+}
 @media ( max-width: 1000px){
 
     

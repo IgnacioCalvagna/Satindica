@@ -7,9 +7,17 @@ const AboutUs = () => {
   return (
     <>
       <div className="container">
-        <h1 className="title">Quienes somos</h1>
+        <div data-aos="zoom-out-down">
+          <h1 className="title">Quienes somos</h1>
+        </div>
 
-        <div className="caja1 container">
+        <div
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="5000"
+          className="caja1 container"
+        >
           <div className=" totoArriba">
             <p className=" txt">
               Somos Satindica, una empresa establecida con 4 años de
@@ -31,7 +39,12 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <div className="laImg txt-img ">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="900"
+            className="laImg txt-img "
+          >
             <img src={aceites} alt="" width="90%" />
           </div>
         </div>
@@ -47,7 +60,13 @@ const AboutUs = () => {
                 <button className="btn  btn-success">Contactenos</button>
               </Link>
             </div>
-            <p className="chivo">La mejor calidad y precio del mercado</p>
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="8000"
+            >
+              <p className="chivo">La mejor calidad y precio del mercado</p>
+            </div>
           </div>
         </div>
       </div>

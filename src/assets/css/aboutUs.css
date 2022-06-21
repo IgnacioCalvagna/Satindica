@@ -13,7 +13,7 @@
 
     width: 100%;
     font-size: larger;
-    hyphens:auto;
+    hyphens:manual;
     line-break:strict;
 }
 .txt-img{
