@@ -2,7 +2,7 @@
     
     "productos": [
       {
-          "id":1,
+          "id":0,
         "name": "Aceite CBD",
         "description": "Ansiedad,ataques de pánico,migrañas, para dejar de fumar,reduce el apetito,diabetes,trata organos vitales, salud arterial y CBD cardíaca, trastorno del sueño, neuroprotector,regenerador, psoriasis, anti-inflamatorio. ",
         "linea":"satindica",
@@ -11,7 +11,7 @@
        
       },
       {
-        "id":2,
+        "id":1,
         "name": "Aceite THC",
         "description": "Ayuda a levantar la energía, el estado de animo, es vigorizante ataca células cancerigenas, trabaja para reducir tumores.En la mayoría de los casos quita el sueño y activa a la persona, estimula el apetito ",
         "linea":"satindica",
@@ -21,8 +21,16 @@
       },
   
       {
+        "id":2,
+        "name": "Indica",
+        "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
+        "linea":"satindica",
+        "price": 2000,
+        "stock": 158
+      },
+      {
         "id":3,
-        "name": "Indica  ",
+        "name": "Violeta",
         "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
         "linea":"satindica",
         "price": 2000,
@@ -30,23 +38,15 @@
       },
       {
         "id":4,
-        "name": "Violeta  ",
-        "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
-        "linea":"satindica",
-        "price": 2000,
-        "stock": 158
-      },
-      {
-        "id":5,
-        "name": "Amarillo  ",
+        "name": "Amarillo",
         "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
         "linea":"satindica",
         "price": 2000,
         "stock": 158
       },
        {
-        "id":6,
-        "name": "verde  ",
+        "id":5,
+        "name": "verde",
         "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
         "linea":"royal",
         "price": 2000,
@@ -54,22 +54,22 @@
       },
       {
        "id":6,
-       "name": "Gris  ",
+       "name": "Gris",
        "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
        "linea":"royal",
        "price": 2000,
        "stock": 158
      },
      {
-      "id":6,
-      "name": "azul  ",
+      "id":7,
+      "name": "azul",
       "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
       "linea":"royal",
       "price": 2000,
       "stock": 158
     },
     {
-      "id":7,
+      "id":8,
       "name": "celeste  ",
       "description": "Trata dolores corporales y patologias nerviosa, reduce la tensión nerviosa, relaja el cuerpo, musculos, distiende contracturas calma el sistema nervioso; parkinson,epilepcia, temblores, espasmos, tie nervioso.",
       "linea":"royal",

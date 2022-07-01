@@ -1,22 +1,23 @@
 import React from 'react'
 import '../assets/css/producto.css'
-const Product = ( {p,id,img} ) => {
+const Product = (  {p,img} ) => {
   return (
     <div >
      
      
         <>
           <div>
-            <div key={id}>
+            <div key={p.id}>
               <div className="columna">
 
                 <div className="laInfo">
                   <h1>{p.name}</h1>
-                  <p>{p.description}</p>
+                  <img src={img} width="100%" alt="" />
+                  
                 </div>
 
                 <div className="info2">
-                  <img src={img} width="100%" alt="" />
+                <p>{p.description}</p>
                 </div>
 
 

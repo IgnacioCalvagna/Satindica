@@ -1,60 +1,42 @@
 import React, { useEffect, useState } from "react";
-import misProductos from "../products.json";
+import fakeData from "../products.json";
 import "../assets/css/catalogo.css";
-import Product from "../commons/Product";
-import { Link, useParams } from 'react-router-dom'
-/// imagenes Satindica
-import algo1 from "../assets/img/productos/catalogo/1.jpeg";
-import algo2 from "../assets/img/productos/catalogo/2.jpeg";
-import algo3 from "../assets/img/productos/catalogo/3.jpeg";
-import algo4 from "../assets/img/productos/catalogo/4.jpeg";
-import algo5 from "../assets/img/productos/catalogo/5.jpeg";
 
-/// imagenes Royal
-import otro1 from "../assets/img/productos/catalogo/royal/1.jpeg";
-import otro2 from "../assets/img/productos/catalogo/royal/2.jpeg";
-import otro3 from "../assets/img/productos/catalogo/royal/3.jpeg";
-import otro4 from "../assets/img/productos/catalogo/royal/4.jpeg";
+import { Link, useParams } from "react-router-dom";
+
 import Ofcanvas from "./Ofcanvas";
-const fotos = [algo1, algo2, algo3, algo4, algo5,otro1, otro2, otro3, otro4];
-
-
+import Productos from "./Productos";
 
 const Catalogo = () => {
+  const { linea } = useParams();
+  const [listaProductos, setListaProductos] = useState([]);
 
-  const { linea } = useParams()
 
-  const [productos, setProductos] = useState([]);
-  
-  
   useEffect(() => {
-    let productitos 
-
-    if(!linea){
-
-      productitos =  misProductos.productos.map((p,i)=>{
-        return(
-           <Product key={i} p={p} img={fotos[i]} />
-           )
-       })
-       
-      }else{
-        
-        productitos =  misProductos.productos.productos.filter((product) => product.linea === linea)
-        
-        
-      }
-      setProductos(productitos)
     
+    let productos = fakeData.productos;
+    new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(productos);
+      }, 2);
+    }).then((resolve) => {
+      if (!linea) {
+        setListaProductos(resolve);
 
-     console.log(linea)
 
-      
-  }, [linea])
-  
- 
- 
 
+      } else {
+        resolve = productos.filter(
+          (product) => product.linea === linea
+        );
+
+        setListaProductos(resolve);
+      }
+
+
+    
+    });
+  }, [linea]);
 
   return (
     <div className="container">
@@ -64,12 +46,16 @@ const Catalogo = () => {
       </div>
 
       <div className="btnLineas">
-        <Link to={'/products/satindica'}> <button className="btn btn-success">Linea Satíndica</button></Link> 
-        <Link to={'/products/royal'}><button className="btn btn-info">Linea Royal Queen</button></Link>
+        <Link to={"/products/satindica"}>
+          <button className="btn btn-success">Linea Satíndica</button>
+        </Link>
+        <Link to={"/products/royal"}>
+          <button className="btn btn-info">Linea Royal Queen</button>
+        </Link>
       </div>
 
       <div className="container">
-        <div className="row">{productos}</div>
+        <Productos listaProductos={listaProductos} />
       </div>
     </div>
   );
