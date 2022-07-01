@@ -1,29 +1,23 @@
 import React from 'react'
 import '../assets/css/producto.css'
+import { Card,Button } from 'react-bootstrap'
 const Product = (  {p,img} ) => {
   return (
     <div >
      
      
         <>
-          <div>
-            <div key={p.id}>
-              <div className="columna">
-
-                <div className="laInfo">
-                  <h1>{p.name}</h1>
-                  <img src={img} width="100%" alt="" />
-                  
-                </div>
-
-                <div className="info2">
-                <p>{p.description}</p>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
+        <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src={img} />
+  <Card.Body>
+    <Card.Title>{p.name}</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
         </>
      
     

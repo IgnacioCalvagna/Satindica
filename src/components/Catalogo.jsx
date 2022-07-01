@@ -46,6 +46,9 @@ const Catalogo = () => {
       </div>
 
       <div className="btnLineas">
+      <Link to={"/products/"}>
+          <button className="btn btn-success">Productos</button>
+        </Link>
         <Link to={"/products/satindica"}>
           <button className="btn btn-success">Linea Satíndica</button>
         </Link>
