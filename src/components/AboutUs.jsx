@@ -12,10 +12,10 @@ const AboutUs = () => {
         </div>
 
         <div
-          data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="5000"
+              data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="8000"
+            
           className="caja1 container"
         >
           <div className=" totoArriba">
@@ -43,6 +43,7 @@ const AboutUs = () => {
             data-aos="flip-left"
             data-aos-easing="linear"
             data-aos-duration="900"
+
             className="laImg txt-img "
           >
             <img src={aceites} alt="" width="90%" />
@@ -54,7 +55,7 @@ const AboutUs = () => {
             <img src={logo} alt="" width="45%" />
           </div>
 
-          <div className="txt">
+          <div>
             <div className="elbtn">
               <Link to="/contactMe">
                 <button className="btn  btn-success">Contactenos</button>
@@ -64,6 +65,8 @@ const AboutUs = () => {
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="8000"
+
+              className="txt"
             >
               <p className="chivo">La mejor calidad y precio del mercado</p>
             </div>

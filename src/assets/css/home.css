@@ -5,13 +5,18 @@ button{
     background-color: #43893D;
 }
 .carruup{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .elCarru{
     width: 70%;
     margin:0 auto;
 
 }
+.elCarru:hover{
+    transition: 1500ms;
+    width: 80%;
+}
+
 .parrafito{
     margin-top: 5%;
 }

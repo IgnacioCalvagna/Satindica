@@ -2,20 +2,19 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/navbar.css";
 import logo from "../assets/img/logoChico.png";
-
-
+import Logs from './Login';
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light verde">
         <div className="container-fluid">
-               <li className="nav-item">
-                 <NavLink to="/">
-                   <img src={logo} alt="" width="65%" />
-                 </NavLink>
-               </li>
-        
+          <li className="nav-item">
+            <NavLink to="/">
+              <img src={logo} alt="" width="65%" />
+            </NavLink>
+          </li>
+
           <button
             className="navbar-toggler navTogle"
             type="button"
@@ -26,7 +25,7 @@ const Navbar = () => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-            <i class="fa-regular fa-list-dropdown"></i>
+              <i className="fa-regular fa-list-dropdown"></i>
             </span>
           </button>
 
@@ -65,6 +64,20 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="nav-end">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink to="/login">
+              <button className="btn ">Login</button>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/register">
+                <button className="btn ">Register</button>
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </nav>
     </>

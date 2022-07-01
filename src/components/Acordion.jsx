@@ -38,7 +38,7 @@ const Acordion = () => {
                 <div className="laImg">
                   <button
                     type="button"
-                    class="btn miBtn modal-lg "
+                    className="btn miBtn modal-lg "
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdropList"
                   >
@@ -50,35 +50,35 @@ const Acordion = () => {
           </div>
 
           <div
-            class="modal fade"
+            className="modal fade"
             id="staticBackdropList"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title" id="staticBackdropLabel">
                     Nuestros aceites
                   </h5>
                   <button
                     type="button"
-                    class="btn-close"
+                    className="btn-close"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">
+                <div className="modal-body">
                   {" "}
                   <img src={list} alt="" width="100%" />
                 </div>
-                <div class="modal-footer">
+                <div className="modal-footer">
                   <button
                     type="button"
-                    class="btn btn-secondary"
+                    className="btn btn-secondary"
                     data-bs-dismiss="modal"
                   >
                     Close
@@ -221,7 +221,7 @@ const Acordion = () => {
                 <div className="laImg">
                   <button
                     type="button"
-                    class="btn miBtn modal-lg "
+                    className="btn miBtn modal-lg "
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdropPets"
                   >
@@ -231,11 +231,11 @@ const Acordion = () => {
               </div>
 
               <div
-                class="modal fade"
+                className="modal fade"
                 id="staticBackdropPets"
                 data-bs-backdrop="static"
                 data-bs-keyboard="false"
-                tabindex="-1"
+                tabIndex="-1"
                 aria-labelledby="staticBackdropLabel"
                 aria-hidden="true"
               >

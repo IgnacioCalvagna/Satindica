@@ -5,13 +5,17 @@ import "../assets/css/home.css";
 import Carrousel from "./Carrousel";
 import CaroucelUp from "./CaroucelUp";
 import MiddlePage from "./MiddlePage";
+import { Button } from 'react-bootstrap';
 
 const Home = () => {
   return (
     <div className="Home">
-      <div className="carruup">
+<div data-aos="zoom-out-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" className="carruup">
         <CaroucelUp />
       </div>
+      
       <MiddlePage/>
 
       <p className="parrafito">

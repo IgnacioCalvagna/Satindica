@@ -26,5 +26,12 @@
 }
 @media ( max-width: 1000px){
 
-    
+    .addBtn{
+        margin-bottom: 5%;
+    }
+    .btnLineas{
+        margin-top: 15%;
+        display: flex;
+        
+    }
 }

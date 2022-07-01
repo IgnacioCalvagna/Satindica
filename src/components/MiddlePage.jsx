@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/img/logoVerde.png";
 import "../assets/css/middlepage.css";
+import { Link } from "react-router-dom";
 const MiddlePage = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const MiddlePage = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
           className="algoNuestro"
         >
           <h4>
@@ -22,13 +24,13 @@ const MiddlePage = () => {
             al producto final <br />
             si queres leer mas sobre nuestro proceso
             <br />
-            <button className="btn btn-success">Leer mas</button>
+           <Link  to={'whyUs'}> <button className="btn btn-success">Leer mas</button></Link>
           </p>
         </div>
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000"
+          data-aos-duration="10"
           className="logito "
         >
           <img src={logo} alt="" width="45%" />

@@ -9,7 +9,9 @@ import QueHacemos from "./QueHacemos";
 import Footer from "./Footer";
 import AddProduct from "./AddProduct";
 import Pedido from './Pedido';
+import Login from './Login';
 import PorqueNosotros from './PorqueNosotros';
+import Register from "./Register";
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,8 @@ function App() {
         <Route path="queHacemos" element={<QueHacemos />} />
         
         <Route path="/products" element={<Catalogo />} />
+        <Route path="/products/:linea" element={<Catalogo />} />
+        
         <Route path='/products/add' element={<AddProduct/>}/>
         <Route path='/products/pedido' element={<Pedido/>}/>
         
@@ -27,6 +31,8 @@ function App() {
         <Route path='/whyUs' element={<PorqueNosotros/>}/>
 
         <Route path="/contactMe" element={<ContactMe />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
 
       <div className="footi">

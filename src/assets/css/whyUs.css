@@ -1,0 +1,42 @@
+.padre{
+    display:flex;
+    margin-bottom: 25%;
+}
+.izqui{
+    width:35%;
+    
+}
+.dere{
+    width:35%;
+    
+}
+.medio{
+    width:25%
+}
+
+@media ( max-width: 1000px){
+    .padre{
+        margin-bottom: 25%;
+        margin-top: 5%;
+        display:block
+    }
+    .izqui{
+        width:100%;
+      
+        
+    }
+    .dere{
+        width:100%;
+        
+    }
+    .medio{
+        width:50%;
+        margin: 0 auto;
+    }
+    .misP{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+

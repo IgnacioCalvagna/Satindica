@@ -9,13 +9,19 @@
     text-align: center;
     color:#43893D
 }
-.laImg{
+/* .laImg{
     text-align: center;
-}
+} */
 .miBtn:hover{
     width: 100%;
 }
 
+.acordion{
+    margin-bottom: 13%;
+}
 
-
-  
+@media (max-width: 700px) {
+    .acordion{
+        margin-bottom: 42%;
+    }
+}

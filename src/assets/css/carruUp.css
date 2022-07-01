@@ -1,11 +1,16 @@
 .totCarru{
     margin-top: 5%;
-    width: 100%;
+    width: 90%;
     height: 25%;
     margin: 0 auto;
     
 }
 .fotos{
-    width: 100%;
+    width: 70%;
     height: 20%;
+    margin: 0 auto;
+}
+.fotos:hover{
+    transition: 2s;
+    width: 85%;
 }
