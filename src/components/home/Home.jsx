@@ -10,14 +10,16 @@ import MiddlePage from "./MiddlePage";
 const Home = () => {
   return (
     <div className="Home">
+
       <div
         data-aos="zoom-out-down"
         data-aos-easing="linear"
         data-aos-duration="1000"
-        className="carruup"
       >
         <CaroucelUp />
       </div>
+
+      
 
       <MiddlePage />
 

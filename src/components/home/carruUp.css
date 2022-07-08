@@ -5,6 +5,11 @@
     margin: 0 auto;
 
 }
+.carruDeArriba{
+    width:'100%';
+    height:'250px'
+
+}
 
 .fotos {
     width: 70%;
@@ -15,8 +20,4 @@
 .fotos:hover {
     transition: 2s;
     width: 85%;
-}
-.img{
-    width:'100%';
-    height:'250px'
 }
