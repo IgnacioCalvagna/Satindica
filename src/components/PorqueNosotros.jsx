@@ -4,9 +4,9 @@ import logo from "../assets/img/logoVerde.png";
 const PorqueNosotros = () => {
   return (
     <>
-      <h2>PorqueNosotros</h2>
+      <h2 className="title">Porque Satindica</h2>
 
-      <div>
+      <div className="container">
         <p>
           En primer lugar, nos preocupamos por la calidad de
           nuestros productos y eso nos remontarnos a lo  hace seleccionar geneticas, el cuidado y
@@ -15,9 +15,10 @@ const PorqueNosotros = () => {
         </p>
       </div>
 
-      <div className="padre">
+      <div className="padre container">
+
         <div className="izqui">
-          <p className="misP">
+          <p className="misP  ">
             Somos SATINDICA, una Pymes establecida con 4 años de conocimiantos
             comprobados, Nos dedicamos de lleno a la realización de aceites de
             cannabis medicinal con fines exclusivamente Terapéuticos. Nos
@@ -45,7 +46,7 @@ const PorqueNosotros = () => {
           <img src={logo} width={"55%"} alt="" />
         </div>
         <div className="dere">
-          <p className="misP">
+          <p className="misP ">
             Marca satíndica, productos terapeuticos con fines medicinales.
             Producidos con la flor del cannabis, obteniendo y conservando todos
             sus cannabinoides y sus beneficios de manera completa. Las
@@ -66,7 +67,15 @@ const PorqueNosotros = () => {
             nosivas con efectos residuales y secundarios.
           </p>
         </div>
+
+
+
       </div>
+
+
+
+
+
     </>
   );
 };

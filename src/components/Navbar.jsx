@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/navbar.css";
 import logo from "../assets/img/logoChico.png";
-import Logs from './Login';
+import Logs from "./Login";
 
 const Navbar = () => {
   return (
@@ -63,21 +63,21 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
+          <div className="nav-end">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <NavLink to="/login">
+                  <button className="btn ">Login</button>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/register">
+                  <button className="btn ">Register</button>
+                </NavLink>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div className="nav-end">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <NavLink to="/login">
-              <button className="btn ">Login</button>
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/register">
-                <button className="btn ">Register</button>
-              </NavLink>
-            </li>
-          </ul>
+          </div>
         </div>
       </nav>
     </>

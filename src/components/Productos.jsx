@@ -20,7 +20,8 @@ const Productos = ({ listaProductos }) => {
 
   const misProductos = listaProductos.map((p, img) => {
     return (
-      <Col>
+
+      <Col md="4" mb="2">
         <Product p={p} img={fotos[p.id]} />
       </Col>
     );

@@ -20,6 +20,8 @@
 }
 .btnLineas{
     margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .addBtn{
     float: left;
@@ -34,5 +36,8 @@
         display: flex;
         margin: 5%;
         
+    }
+    .lista{
+        justify-content:center;
     }
 }

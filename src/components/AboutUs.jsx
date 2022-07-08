@@ -11,15 +11,9 @@ const AboutUs = () => {
           <h1 className="title">Quienes somos</h1>
         </div>
 
-        <div
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="8000"
-            
-          className="caja1 container"
-        >
-          <div className=" totoArriba">
-            <p className=" txt">
+        <div className="nosotros">
+          <div className="nosotros_text">
+            <p className="txt">
               Somos Satindica, una empresa establecida con 4 años de
               conocimientos comprobados, que se dedica a la realización de
               productos y aceites de cannabis con fines exclusivamente
@@ -43,32 +37,31 @@ const AboutUs = () => {
             data-aos="flip-left"
             data-aos-easing="linear"
             data-aos-duration="900"
-
-            className="laImg txt-img "
+            className="aceites"
           >
             <img src={aceites} alt="" width="90%" />
           </div>
         </div>
 
-        <div className="todo container">
-          <div className="txt laImg">
+        <div className="nosotrosDown">
+          <div className="laImg">
             <img src={logo} alt="" width="45%" />
           </div>
 
-          <div>
+          <div className="nosotrosDownRight">
             <div className="elbtn">
               <Link to="/contactMe">
                 <button className="btn  btn-success">Contactenos</button>
               </Link>
             </div>
+
             <div
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="8000"
-
               className="txt"
             >
-              <p className="chivo">La mejor calidad y precio del mercado</p>
+              <h3 className="chivo">La mejor calidad y precio del mercado</h3>
             </div>
           </div>
         </div>

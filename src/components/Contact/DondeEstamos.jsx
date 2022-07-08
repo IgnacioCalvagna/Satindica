@@ -1,11 +1,12 @@
 import React from "react";
-import "../assets/css/dondeEstamos.css";
+import "../../assets/css/dondeEstamos.css";
 const DondeEstamos = () => {
   return (
     <div className="miframe">
       <h4>Nos encontramos en zona norte (1648), Buenos Aires</h4>
-      <div >
+      <div>
         <iframe
+          title="algo"
           width="100%"
           height="350px"
           frameBorder="0"

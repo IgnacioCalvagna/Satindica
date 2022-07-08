@@ -4,9 +4,7 @@
 button{
     background-color: #43893D;
 }
-.carruup{
-    margin-top: 2%;
-}
+
 .elCarru{
     width: 70%;
     margin:0 auto;
@@ -34,7 +32,7 @@ button{
 @media ( max-width: 1000px){
     .carruup{
         margin: 0 auto;
-        margin-top: 5%;
+     
     }
     div.elCarru{
         width: 100%;

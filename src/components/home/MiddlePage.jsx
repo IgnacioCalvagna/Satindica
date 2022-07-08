@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/img/logoVerde.png";
-import "../assets/css/middlepage.css";
+import logo from "../../assets/img/logoVerde.png";
+import "../../assets/css/middlepage.css";
 import { Link } from "react-router-dom";
 const MiddlePage = () => {
   return (

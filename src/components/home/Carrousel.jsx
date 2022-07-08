@@ -1,11 +1,11 @@
 import React from "react";
-import '../assets/css/carousel.css'
+import '../../assets/css/carousel.css'
 
-import  algo from '../assets/img/productos/aceites/1.jpeg'
-import  algo5 from '../assets/img/productos/aceites/2.jpeg'
-import  algo4 from '../assets/img/productos/aceites/3.jpeg'
-import  algo3 from '../assets/img/productos/aceites/4.jpeg'
-import  algo2 from  '../assets/img/productos/aceites/5.jpeg'
+import  algo from '../../assets/img/productos/aceites/1.jpeg'
+import  algo5 from '../../assets/img/productos/aceites/2.jpeg'
+import  algo4 from '../../assets/img/productos/aceites/3.jpeg'
+import  algo3 from '../../assets/img/productos/aceites/4.jpeg'
+import  algo2 from  '../../assets/img/productos/aceites/5.jpeg'
 const Carrousel = () => {
   return (
     <div className="elCarru">

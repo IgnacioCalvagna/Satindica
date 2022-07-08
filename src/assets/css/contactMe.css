@@ -1,13 +1,16 @@
+.title{
+    font-size:xxx-large;
+}
 .divInfo {
-    width: 50%;
+    width: 33%;
 }
 
 .divHorario {
-    width: 25%;
+    width: 33%;
 }
 
 .divMedioPago {
-    width: 25%;
+    width: 33%;
 
 }
 
@@ -41,12 +44,14 @@
 .elForm {
     /* margin-top: 10%; */
     width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .contact {
     display: flex;
-
-    justify-content: space-between;
+    margin: 0 auto;
+    
 }
 
 .deAbajo {
