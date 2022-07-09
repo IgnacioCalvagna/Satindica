@@ -1,18 +1,18 @@
-import "../assets/css/App.css";
-import Navbar from "./Navbar";
+import "./assets/css/App.css";
+import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import AboutUs from "./AboutUs";
-import Home from "./home/Home";
-import ContactMe from "./Contact/ContactMe";
-import Catalogo from "./catalogo/Catalogo";
-import QueHacemos from "./QueHacemos";
-import Footer from "./Footer";
-import AddProduct from "./AddProduct";
-import Pedido from "./Pedido";
-import Login from "./Login";
-import PorqueNosotros from "./PorqueNosotros";
-import Register from "./Register";
-import ProductDetail from "./ProductDetail";
+import AboutUs from "./components/AboutUs";
+import Home from "./components/home/Home";
+import ContactMe from "./components/Contact/ContactMe";
+import Catalogo from "./components/catalogo/Catalogo";
+import QueHacemos from "./components/QueHacemos";
+import Footer from "./components/Footer/Footer";
+import AddProduct from "./components/AddProduct";
+import Pedido from "./components/Pedido";
+import Login from "./components/Login";
+import PorqueNosotros from "./components/PorqueNosotros";
+import Register from "./components/Register";
+import ProductDetail from "./components/catalogo/ProductDetail";
 function App() {
   return (
     <div className="App">

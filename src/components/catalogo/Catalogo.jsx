@@ -6,7 +6,7 @@ import "../../assets/css/catalogo.css";
 import { Link, useParams } from "react-router-dom";
 
 // import Ofcanvas from "./Ofcanvas";
-import Productos from "../Productos";
+import Productos from "./Productos";
 
 const Catalogo = () => {
   const { linea } = useParams();

@@ -11,30 +11,30 @@ const CaroucelUp = () => {
       <Carousel >
         <Carousel.Item>
           <img
-            className="img d-block w-100"
+            className="img "
             src={foto1}
             alt="First slide"
             objetcfit="contain"
-            height="862vh"
+            
 
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="img d-block w-100"
+            className="img "
             src={foto2}
             alt="Second slide"
             objetcfit="contain"
-            height="862vh"
+            
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="img d-block w-100"
+            className="img "
             src={foto3}
             alt="Third slide"
             objetcfit="contain"
-            height="862vh"
+            
           />
         </Carousel.Item>
       </Carousel>

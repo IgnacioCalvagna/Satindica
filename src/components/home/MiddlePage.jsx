@@ -7,10 +7,7 @@ const MiddlePage = () => {
     <>
       <div className="middlePage container">
         <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="2000"
+         
           className="algoNuestro"
         >
           <h4>
