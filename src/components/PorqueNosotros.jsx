@@ -8,10 +8,7 @@ const PorqueNosotros = () => {
 
       <div className="container">
         <p>
-          En primer lugar, nos preocupamos por la calidad de
-          nuestros productos y eso nos remontarnos a lo  hace seleccionar geneticas, el cuidado y
-          alimentacion de las plantas. Luego del corte de la planta, los
-          cuidados continuan, hasta llegar al producto final
+         
         </p>
       </div>
 

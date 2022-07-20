@@ -7,11 +7,10 @@ import ContactMe from "./components/Contact/ContactMe";
 import Catalogo from "./components/catalogo/Catalogo";
 import QueHacemos from "./components/QueHacemos";
 import Footer from "./components/Footer/Footer";
-import AddProduct from "./components/AddProduct";
-import Pedido from "./components/Pedido";
-import Login from "./components/Login";
+import Pedido from "./components/catalogo/Pedido";
+import Login from "./components/logs/Login";
 import PorqueNosotros from "./components/PorqueNosotros";
-import Register from "./components/Register";
+import Register from "./components/logs/Register";
 import ProductDetail from "./components/catalogo/ProductDetail";
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/products" element={<Catalogo />} />
         <Route path="/products/:linea" element={<Catalogo />} />
 
-        <Route path="/products/add" element={<AddProduct />} />
         <Route path="/products/pedido" element={<Pedido />} />
         <Route path="/product/:id" element={<ProductDetail />} />
 

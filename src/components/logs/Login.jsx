@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Form, FloatingLabel } from "react-bootstrap";
-import "../assets/css/login.css";
+import "../../assets/css/login.css";
 const Logs = () => {
   return (
     <>

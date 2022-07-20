@@ -1,0 +1,36 @@
+.detalle{
+    margin-top: 5%;
+    display:flex;
+    
+}
+.left{
+    margin-top: 5%;
+    width: 100%;
+}
+.right{
+    margin-top: 5%;
+    width: 50%;
+}
+.desc{
+    width:80%;
+    text-align:left;
+}
+.comentarios{
+    margin-bottom: 22.4%;
+    
+}
+.formuComent{
+    margin-top: 5%;
+    float:left;
+}
+@media ( max-width: 1000px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .detalle{
+        display:block
+    }
+}

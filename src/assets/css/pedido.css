@@ -1,0 +1,10 @@
+.miFormu{
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 23%;
+}.btnera{
+    display: flex;
+    justify-content:space-between;
+    
+}

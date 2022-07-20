@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import fakeData from "../../products.json";
 import "../../assets/css/catalogo.css";
 
-
 import { Link, useParams } from "react-router-dom";
 
-// import Ofcanvas from "./Ofcanvas";
+import Ofcanvas from "./Ofcanvas";
 import Productos from "./Productos";
 
 const Catalogo = () => {
@@ -30,7 +29,7 @@ const Catalogo = () => {
   }, [linea]);
 
   return (
-    <div className="container">
+    <div className=" cat container">
       <h1>Catalogo de productos</h1>
       {/* <div className="addBtn">
         <Ofcanvas />
@@ -51,6 +50,9 @@ const Catalogo = () => {
           <Link to={"/products/royal"}>
             <button className="btn btn-info">Royal Queen</button>
           </Link>
+        </div>
+        <div>
+          <Ofcanvas />
         </div>
       </div>
 

@@ -14,13 +14,13 @@ const Ofcanvas = () => {
         Opciones del staff
         </Button>
   
-        <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas show={show} onHide={handleClose} placement="end">
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Agregar productos </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-          <Link to='/products/add'> <Button variant='success'>Agregar Aceite</Button> <br /></Link>
-           <br />
+        
+           {/* <br /> */}
            <Link to={'/products/pedido'}> <Button variant='success'>Hacer pedido</Button></Link>
           </Offcanvas.Body>
         </Offcanvas>

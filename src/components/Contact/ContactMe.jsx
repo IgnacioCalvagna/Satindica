@@ -5,7 +5,7 @@ import Info from "./Info";
 import Horarios from "./Horarios";
 import MediosDePago from "./MediosDePago";
 import Form from "./Form";
-import DondeEstamos from "./DondeEstamos";
+
 
 const ContactMe = () => {
   return (
@@ -39,12 +39,10 @@ const ContactMe = () => {
           </p>
         </div>
         <div className=" deAbajo">
-          <div className=" izquierda">
+          
             <Form />
-          </div>
-          <div className="derecha">
-            <DondeEstamos />
-          </div>
+          
+         
         </div>
       </div>
     </>
